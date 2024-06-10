@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: botconfig
+data:
+  LOG_LEVEL: "debug"
+  API_URL: "https://webapi-bobe-test.herokuapp.com"
